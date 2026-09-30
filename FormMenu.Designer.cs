@@ -40,7 +40,7 @@
             this.btnTask1_1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnTask1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnTask1_1.Location = new System.Drawing.Point(153, 30);
-            this.btnTask1_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTask1_1.Margin = new System.Windows.Forms.Padding(2);
             this.btnTask1_1.Name = "btnTask1_1";
             this.btnTask1_1.Size = new System.Drawing.Size(164, 40);
             this.btnTask1_1.TabIndex = 0;
@@ -53,7 +53,7 @@
             this.btnTask1_2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnTask1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnTask1_2.Location = new System.Drawing.Point(153, 97);
-            this.btnTask1_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTask1_2.Margin = new System.Windows.Forms.Padding(2);
             this.btnTask1_2.Name = "btnTask1_2";
             this.btnTask1_2.Size = new System.Drawing.Size(164, 40);
             this.btnTask1_2.TabIndex = 1;
@@ -66,7 +66,7 @@
             this.btnTask1_3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnTask1_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnTask1_3.Location = new System.Drawing.Point(153, 160);
-            this.btnTask1_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTask1_3.Margin = new System.Windows.Forms.Padding(2);
             this.btnTask1_3.Name = "btnTask1_3";
             this.btnTask1_3.Size = new System.Drawing.Size(164, 40);
             this.btnTask1_3.TabIndex = 2;
@@ -79,7 +79,7 @@
             this.btnTask1_4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnTask1_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnTask1_4.Location = new System.Drawing.Point(153, 223);
-            this.btnTask1_4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTask1_4.Margin = new System.Windows.Forms.Padding(2);
             this.btnTask1_4.Name = "btnTask1_4";
             this.btnTask1_4.Size = new System.Drawing.Size(164, 40);
             this.btnTask1_4.TabIndex = 3;
@@ -92,7 +92,7 @@
             this.btnTask2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnTask2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnTask2.Location = new System.Drawing.Point(153, 287);
-            this.btnTask2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTask2.Margin = new System.Windows.Forms.Padding(2);
             this.btnTask2.Name = "btnTask2";
             this.btnTask2.Size = new System.Drawing.Size(164, 40);
             this.btnTask2.TabIndex = 4;
@@ -100,7 +100,7 @@
             this.btnTask2.UseVisualStyleBackColor = false;
             this.btnTask2.Click += new System.EventHandler(this.btnTask2_Click);
             // 
-            // Form1
+            // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,10 +111,10 @@
             this.Controls.Add(this.btnTask1_3);
             this.Controls.Add(this.btnTask1_2);
             this.Controls.Add(this.btnTask1_1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "FormMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Лабораторная работа №1 (вариант 4)";
+            this.Text = "Лабораторная работа №2 (вариант 4)";
             this.ResumeLayout(false);
 
         }

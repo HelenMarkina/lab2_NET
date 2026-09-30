@@ -35,7 +35,7 @@ namespace lab2
                 else
                 {
                     double x = -c / b;
-                    lblResult.Text = $"Не квадратное уравнение (a = 0). Линейное: x = {x:F2}";
+                    lblResult.Text = $"Не квадратное уравнение (a = 0). x = {x:F2}";
                 }
                 return;
             }
